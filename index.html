@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celeres Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/celeres_face.jpg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Anthony Celeres</h1>
+
+          <p class="title">Data Scientist</p>
+          <p class="title">Software Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:aceleres.nimbus@gmail.com" class="contact-link">celeresanthony@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+639503773956" class="contact-link">+639503773956</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">April 23, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pilar, Bohol, Philippines</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I'm Anthony—a BS Computer Science 3rd year student with a strong passion for Data Science and Software Development. 
+            I'm actively building my skills in analyzing data, developing predictive models, and creating 
+            digital solutions that address real-world challenges. I enjoy exploring how data can drive 
+            smarter decisions and how technology can improve everyday experiences.
+          </p>
+          <p>
+            My journey involves working on personal projects, collaborating with peers, and continuously 
+            learning new tools and techniques. Whether it's uncovering insights from datasets or building 
+            interactive web applications, I thrive on solving problems and making ideas come to life. 
+            I'm excited to grow as a developer and data scientist, and to contribute to meaningful projects 
+            that have a positive impact.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+                <p class="service-item-text">
+                  Transforming raw data into actionable insights using advanced analytics, machine learning, and visualization techniques.
+                </p>
+              </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Software Development</h4>
+                  <p class="service-item-text">
+                    Building robust, scalable, and user-friendly web and desktop applications tailored to your business needs.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Cybersecurity</h4>
+                  <p class="service-item-text">
+                    Specializing in Cryptography and Digital Forensics to safeguard sensitive data, investigate breaches, and ensure secure communication across digital platforms.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Graphics Designing</h4>
+                  <p class="service-item-text">
+                    Crafting visually compelling designs for branding, marketing, and digital media using modern creative tools.
+                  </p>
+                </div>
+            </li>
+          </ul>
+        </section> 
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Visayas State University</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                Bachelor of Science in Computer Science
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sierra Bullones Technical-Vocational High School</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                Senior High School
+              </p>
+              <p class="timeline-text">
+                Strand: Science, Technology, Engineering, and Mathematics (STEM)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Pilar Technical-Vocational High School</h4>
+
+              <span>2017 — 2021</span>
+
+              <p class="timeline-text">
+                Junior High School
+              </p>
+              <p class="timeline-text">
+                Major: Drafting
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Data Scientist</h4>
+              <span>September 2025 — Present</span>
+              <p class="timeline-text">
+                Leveraging statistical analysis, machine learning, and data visualization to uncover insights and drive data-informed decisions across complex projects.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Developer</h4>
+              <span>March 2024 — Present</span>
+              <p class="timeline-text">
+                Designing and building scalable web and mobile applications using modern frameworks, with a focus on performance, usability, and clean architecture.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <i class="bx bx-data"></i>
+              <span class="h5">Data Science</span>
+            </li>
+
+            <li class="skills-item">
+              <i class="bx bxs-bar-chart-alt-2"></i>
+              <span class="h5">R Language</span>
+            </li>
+            <li class="skills-item">
+              <i class="devicon-nextjs-plain"></i>
+              <span class="h5">Next.js</span>
+            </li>
+            <li class="skills-item">
+              <i class="bx bxl-react"></i>
+              <span class="h5">React</span>
+            </li>
+
+            <li class="skills-item">
+              <i class="bx bxl-typescript"></i>
+              <span class="h5">TypeScript</span>
+            </li>
+
+            <li class="skills-item">
+              <i class="bx bxl-html5"></i>
+              <span class="h5">HTML</span>
+            </li>
+
+            <li class="skills-item">
+              <i class="bx bxl-css3"></i>
+              <span class="h5">CSS</span>
+            </li>
+
+            <li class="skills-item">
+              <i class="bx bxl-javascript"></i>
+              <span class="h5">JavaScript</span>
+            </li>
+
+            <li class="skills-item">
+              <i class="bx bxl-nodejs"></i>
+              <span class="h5">Node.js</span>
+            </li>
+
+            <li class="skills-item">
+              <i class="devicon-c-plain"></i>
+              <span class="h5">C Language</span>
+            </li>
+
+            <li class="skills-item">
+              <i class="devicon-cplusplus-plain"></i>
+              <span class="h5">C++</span>
+            </li>
+
+            <li class="skills-item">
+              <i class="bx bxl-java"></i>
+              <span class="h5">Java</span>
+            </li>
+
+            <li class="skills-item">
+              <i class="devicon-csharp-plain"></i>
+              <span class="h5">C#</span>
+            </li>
+
+            <li class="skills-item">
+              <i class="bx bxl-python"></i>
+              <span class="h5">Python</span>
+            </li>
+
+            <li class="skills-item">
+              <i class="bx bx-lock-alt"></i>
+              <span class="h5">Cryptography</span>
+            </li>
+            <li class="skills-item">
+              <i class="bx bx-analyse"></i>
+              <span class="h5">Digital Forensics</span>
+            </li>
+            <li class="skills-item">
+              <i class="bx bxl-figma"></i>
+              <span class="h5">Figma</span>
+            </li>
+
+            
+
+          </ul>
+        </section>
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Science</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Software Development</button>
+            </li>
+
+            
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Science</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Software Development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="#">
+
+                <figure class="project-img">
+                  <img src="./assets/images/intro_data-science-certificate.jpg" alt="intro" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Introduction to Data Science course certificate</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <img src="./assets/images/celeres_ehr.png" alt="ehr" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Electronic Health Record</h3>
+
+                <p class="project-category">Software Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <img src="./assets/images/celeres_calculator1.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Windows Calculator</h3>
+
+                <p class="project-category">Software Development</p>
+
+              </a>
+            </li>       
+
+            <li class="project-item  active" data-filter-item data-category="software development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <img src="./assets/images/celeres_mathwiz.png" alt="mathwiz" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mathwiz Arena</h3>
+
+                <p class="project-category">Software Development</p>
+
+              </a>
+            </li>       
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.72851172834!2d-0.24167814421445736!3d51.52873523788755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4e13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sph!4v1679093377777!5m2!1sen!2sph"
+              width="400"
+              height="300"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
