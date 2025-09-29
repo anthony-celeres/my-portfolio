@@ -312,14 +312,12 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 180px; /* Increased from 112px */
+  max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
-  padding-bottom: 20px; /* Add extra space for icons */
 }
 
-/* On mobile, expand sidebar when active */
-.sidebar.active { max-height: 500px; }
+.sidebar.active { max-height: 405px; }
 
 .sidebar-info {
   position: relative;
